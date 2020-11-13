@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+	<title> Lab Task 8 </title>
+	<link rel= "stylesheet" href="task.css">
+	<h1>FriendFace</h1>
+<form>
+	<fieldset>
+		<legend>Sign Up/Registration</legend>
+		<label for="name">Full Name:</label><input type="text" id="name" /> <br />
+		<label for="email">Email:</label><input type="text" id="email" /> <br />
+		<label for="number">Phone No:</label><input type="text" id="number" /> <br />
+		<label for="country">Country:</label><input list="country"> 
+		<datalist id="country">
+			<option value="United Kingdom">
+			<option value="United States">
+			<option value="China">
+			<Option value="South Korea">
+			<Option value ="Japan">
+			</datalist> <br />
+		<label for="username">Username:</label><input type="text" name="username" required="required" /> <br />
+		<label for= "password">Password:</label><input type="password" name="password" id="password" required="required" /> <br />
+		<label for="birthday">Birthday:</label> <input type="date" id="birthday" name="birthday"> <br/>
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">Female</label>
+		<input type="radio" id="other" name="gender" value="other">
+		<label for="other">Other</label><br />
+		<input type="submit" value="Sign Up!" id="submit" />
+	</fieldset>
+</body>
+</head>
+</html>
